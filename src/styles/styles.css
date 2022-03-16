@@ -1,0 +1,66 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+label span{
+    position: absolute;
+    right: 0;
+    width: 90%;
+    background: #0D6EFD;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+#container-logo{
+    display: table;
+    margin: auto;
+}
+
+@keyframes escribir {
+    from{
+        width: 100%;
+    }to{
+        width: 0;
+    }
+} */
+
+body{
+    margin: 0;
+    padding: 0px;
+}
+
+label{
+    display: block;
+}
+
+.container-fluido{
+    display: flex;
+    margin:auto;
+    position: relative;
+    height: 700px;
+    margin-top: 15%;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.container-logo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.formulario{
+    justify-content: flex-start;
+    border-left: 2px solid #5495f7;
+    padding-left: 134px;
+
+}
+
+.formulario > form{
+    margin-top: 200px;
+}
